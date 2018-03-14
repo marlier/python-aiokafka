@@ -1,0 +1,5 @@
+aiokafka (0.4.0-1) unstable; urgency=medium
+
+  * Initial packaging
+
+ -- Ian Marlier <imarlier@wikimedia.org>  Tue, 13 Mar 2018 17:49:22 +0400

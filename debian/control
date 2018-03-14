@@ -1,0 +1,23 @@
+Source: aiokafka
+Maintainer: Ian Marlier <imarlier@wikimedia.org>
+Section: python
+Priority: optional
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools, python3-sphinx
+X-Python3-Version: >= 3.4
+Homepage: http://aiokafka.readthedocs.io/
+Vcs-Git: https://github.com/aio-libs/aiokafka.git
+Vcs-Browser: https://github.com/aio-libs/aiokafka
+
+Package: python3-aiokafka
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-aiokafka-doc
+Description: Python aiokafka (python3)
+ Python 3 asyncio client for Kafka
+
+Package: python-aiokafka-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: Python aiokafka (source documentation)
